@@ -209,8 +209,8 @@ class JusspiderSpider(scrapy.Spider):
             numero_legado = numero_processo
             
         if self.urls is not None and self.next_url < len(self.urls):
-            self.next_url = self.next_url + 1
             self.driver.get(self.urls[self.next_url])
+            self.next_url = self.next_url + 1
 
         yield {
             'numero_processo': numero_processo,
