@@ -16,4 +16,4 @@ Após rodar o comando, instale as bibliotecas necessárias para rodar a aplicaç
 
 	pip install -r requirements.txt
 
-Após a instalação das bibliotecas, a aplicação está pronta para ser executada, vamos aos detalhes.
+Após a instalação das bibliotecas, a aplicação está pronta para ser executada.
